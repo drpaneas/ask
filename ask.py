@@ -69,7 +69,7 @@ try:
     import requests_cache
 except ImportError:
     print 'Python requests_cache is not installed...but dont worry I will do it for you right now!'
-    time.sleep(3)"
+    time.sleep(3)
     os.system("git clone git://github.com/reclosedev/requests-cache.git")
     os.system("cd requests-cache")
     os.system("python setup.py install")
